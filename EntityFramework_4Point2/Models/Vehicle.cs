@@ -16,7 +16,7 @@ namespace EntityFramework_4Point2.Models
         public int ID { get; set; }
 
         [Column(TypeName = "varchar(30)")]
-        public string ManufacturerID { get; set; }
+        public int ManufacturerID { get; set; }
 
         [Column(TypeName = "varchar(30)")]
         public string Model { get; set; }
